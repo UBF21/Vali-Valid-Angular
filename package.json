@@ -1,6 +1,6 @@
 {
   "name": "vali-valid-angular",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Angular adapter for vali-valid — use rule() builders as Angular ValidatorFn and AsyncValidatorFn",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
