@@ -1,0 +1,56 @@
+{
+  "name": "vali-valid-angular",
+  "version": "1.0.2",
+  "description": "Angular adapter for vali-valid — use rule() builders as Angular ValidatorFn and AsyncValidatorFn",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=15.0.0",
+    "@angular/core": ">=15.0.0",
+    "@angular/forms": ">=15.0.0",
+    "vali-valid": ">=3.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "typescript": "^5.4.0",
+    "vali-valid": "^3.0.0",
+    "vitest": "^1.6.1"
+  },
+  "keywords": [
+    "angular",
+    "forms",
+    "validation",
+    "vali-valid",
+    "reactive-forms"
+  ],
+  "license": "MIT",
+  "author": "Felipe Rafael Montenegro Morriberon <teabajo_ubf@hotmail.com> (https://fm-portafolio.netlify.app/)",
+  "homepage": "https://vali-valid-docs.netlify.app/angular",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UBF21/Vali-Valid-Angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UBF21/Vali-Valid/issues"
+  },
+  "engines": {
+    "node": ">=18.13.0"
+  }
+}
